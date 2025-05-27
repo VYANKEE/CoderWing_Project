@@ -1,5 +1,9 @@
  E-Commerce Website
 
+ 
+MADE A FRONTEND LANDING PAGE AND A SIGNUP PAGE WITH BACKEND API
+
+
 This is a full-stack E-Commerce web application built using JavaScript, Node.js, Express, and EJS templating engine. The project includes a fully functional backend API and a simple frontend interface for shopping and product management.
 
 
@@ -16,5 +20,5 @@ Frontend: HTML, CSS, JavaScript, EJS
 Backend: Node.js, Express
 Database: MongoDB
 
-
+MADE A FRONTEND LANDING PAGE AND A SIGNUP PAGE WITH BACKEND API
 
