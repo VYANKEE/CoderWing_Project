@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exclusive</title>
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+  <div class="top-bar">Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%! <a href="#">ShopNow</a></div>
+  <header>
+    <h1>Exclusive</h1>
+    <nav class="nav">
+      <a href="#">Home</a>
+      <a href="#">Contact</a>
+      <a href="#">About</a>
+      <a href="/login">Sign Up</a>
+      <input placeholder="What are you looking for!!!" class="inout" type="text">
+      <i class="fa-solid fa-magnifying-glass"></i>
+      <i class="fa-solid fa-cart-shopping"></i>
+    </nav>
+  </header>
+
+  <main>
+    <aside class="category-menu">
+      <ul>
+        <li>Woman's Fashion</li>
+        <li>Men's Fashion</li>
+        <li>Electronics</li>
+        <li>Home & Lifestyle</li>
+        <li>Medicine</li>
+        <li>Sports & Outdoor</li>
+        <li>Baby's & Toys</li>
+        <li>Groceries & Pets</li>
+        <li>Health & Beauty</li>
+      </ul>
+    </aside>
+
+    <section class="hero">
+      <img src="/images/venky.png" alt="iPhone 14 Series">
+      <h2>Up to 10% off Voucher</h2>
+      <a href="#"><button class="shopnow">Shop Now</button></a>
+    </section>
+
+
+
+    
+    
+
+
+    <section class="flash-sales">
+      <h2 class="Today">Today's</h2>
+      <h2>Flash Sales</h2>
+      <div class="timer">03 : 23 : 19 : 56</div>
+      <div class="product-grid">
+        <% products.forEach(product => { %>
+          <div class="product-card">
+            <img src="/images/download.png" alt="<%= product.name %>">
+            <h3><%= product.name %></h3>
+            <p>Price: $<%= product.price %></p>
+            <form >
+              <input type="hidden" name="id" value="<%= product._id %>">
+              <button >Add To Cart</button>
+            </form>
+          </div>
+        <% }) %>
+      </div>
+      <button class="view-all">View All Products</button>
+    </section>
+  </main>
+</body>
+</html>

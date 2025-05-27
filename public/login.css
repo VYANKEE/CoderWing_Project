@@ -1,0 +1,99 @@
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  color: #222;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+.left-panel img {
+  width: 100%;
+  max-width: 600px;
+}
+
+.right-panel {
+  max-width: 400px;
+  padding: 20px;
+}
+
+.right-panel h2 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.right-panel form {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btn {
+  padding: 12px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn.primary {
+  background-color: #DB4444;
+  color: white;
+}
+
+.btn.google {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border: 1px solid #ccc;
+  color: black;
+}
+
+.btn.google img {
+  width: 20px;
+  margin-right: 10px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 40px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.footer-content div {
+  max-width: 200px;
+}
+
+footer input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 8px;
+  border: none;
+  border-radius: 5px;
+}
+
+.images img{
+  height: 50px;
+  width: 50px;
+}
