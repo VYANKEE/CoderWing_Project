@@ -12,7 +12,7 @@ This is a full-stack E-Commerce web application built using JavaScript, Node.js,
 
  Tech Stack
 
-Frontend**: HTML, CSS, JavaScript, EJS
+Frontend: HTML, CSS, JavaScript, EJS
 Backend: Node.js, Express
 Database: MongoDB
 
